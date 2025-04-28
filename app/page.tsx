@@ -30,7 +30,7 @@ export default function Go() {
             Donald R. Franks
           </p>
           <p className="font-medium text-center text-md md:text-xl lg:text-left left-0 mx-auto text-slate-400 tracking-tight top-0 w-full lg:static lg:pt-0 lg:rounded-xl">
-            Senior Software Engineer @ <span className={`${redditFont.className} text-[#FF4500] ml-1`}>reddit</span>
+            Senior Software Engineer @ <span className={`${redditFont.className} text-[#FF4500] ml-0.5`}>reddit</span>
           </p>
           <p className="font-light text-center text-xs md:text-sm lg:text-left mt-2 md:mt-4 left-0 mx-auto text-slate-400 tracking-normal top-0 w-full lg:static lg:pt-0 lg:rounded-xl">
             I build intuitive UIs, robust backend systems, and scalable APIs.
