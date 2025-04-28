@@ -23,7 +23,7 @@ const Badge = (text: string) => {
 
 export default function Go() {
   return (
-    <main className="flex flex-col lg:flex-row items-center max-h-screen min-h-screen min-w-[530px] p-12 md:p-24">
+    <main className="flex flex-col lg:flex-row items-center max-h-screen min-h-screen p-12 md:p-24">
       <div className="flex-col items-center text-center lg:text-left text-sm top-0 z-10 h-full w-full max-w-5xl lg:flex">
         <div>
           <p className="font-bold left-0 mx-auto text-4xl md:text-5xl text-slate-200 top-0 tracking-tight w-full lg:pt-8 lg:static lg:rounded-xl">
