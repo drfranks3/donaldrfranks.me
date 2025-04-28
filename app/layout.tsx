@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Donald Franks - Senior Software Engineer",
   description: "Personal website for Donald R. Franks",
+  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({
@@ -16,9 +17,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
       <body className={`${inter.className} bg-slate-900 antialiased`}>{children}</body>
     </html>
   );
